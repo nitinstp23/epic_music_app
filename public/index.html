@@ -1,0 +1,9 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io({ query: "foo=bar" });
+
+  socket.on("news", function(news) {
+    console.log("news from", news.username);
+    console.log("contents:", news.message);
+  });
+</script>

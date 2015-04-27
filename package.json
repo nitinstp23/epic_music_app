@@ -1,0 +1,24 @@
+{
+  "name": "epic_music_app",
+  "version": "0.0.1",
+  "description": "An awesome music app using beacons technology",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "^4.10.2",
+    "mongoose": "^4.0.2",
+    "morgan": "~1.0.0",
+    "socket.io": "^1.3.4"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "should": "^5.0.0"
+  },
+  "engine": "node 0.12.0",
+  "license": "MIT",
+  "repository": "git@github.com:nitinstp23/epic_music_app.git"
+}
